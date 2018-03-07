@@ -1,0 +1,8 @@
+<aiml version="1.0"> 
+ <!-- This category works with the standard AIML Set --> 
+ <category> 
+ <pattern>LOAD AIML B</pattern>  
+ <template> 
+ <learn>aiml/Temp/100005540460570.aiml</learn> 
+ </template> </category> 
+ </aiml>

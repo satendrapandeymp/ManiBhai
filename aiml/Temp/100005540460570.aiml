@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <aiml version="1.0">
+ <!-- This program is open source code released under -->
+ <!-- the terms of the GNU General Public License -->
+ <!-- as published by the Free Software Foundation. -->
+ <meta name="author" content="Satyendra Pandey"/>
+ <meta name="language" content="en"/>
+
+    <category>
+        <pattern>_ BALANCE *</pattern>
+        <template>
+            Your Account balance is #### sir.
+        </template>
+    </category>
+
+   <category>
+        <pattern>_ BALANCE </pattern>
+        <template>
+            Your Account balance is #### sir.
+        </template>
+    </category>
+
+   <category>
+        <pattern>_ BALANCE ACCOUNT *</pattern>
+        <template>
+            Your Account balance is #### sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MONEY ACCOUNT *</pattern>
+        <template>
+            Your Account balance is #### sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEAREST BRANCH *</pattern>
+        <template>
+            Nearest branch to you is #### sir.
+        </template>
+    </category>
+
+   <category>
+        <pattern>_ CLOSEST BRANCH *</pattern>
+        <template>
+            Nearest branch to you is #### sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CLOSE ACCOUNT *</pattern>
+        <template>
+            To close your account you need to submit xxx documents sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ACCOUNT CLOSED *</pattern>
+        <template>
+            To close your account you need to submit xxx documents sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ NEED * CHEQUEBOOK *</pattern>
+        <template>
+            To close your account you need to submit xxx documents sir.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ WANT * CHEQUEBOOK *</pattern>
+        <template>
+            To close your account you need to submit xxx documents sir.
+        </template>
+    </category>
+
+
+</aiml>
